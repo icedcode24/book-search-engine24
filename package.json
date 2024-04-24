@@ -8,7 +8,8 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install && npm run build",
+    "deploy": "npm run deploy"
   },
   "keywords": [],
   "author": "",
@@ -21,10 +22,10 @@
     "develop": "^1.0.0",
     "express": "^4.19.2",
     "graphql": "^16.8.1",
+    "node": "^18.20.2",
     "react": "^18.2.0",
     "render": "^0.1.4"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/icedcode24/book-search-engine24.git"
@@ -33,5 +34,4 @@
     "url": "https://github.com/icedcode24/book-search-engine24/issues"
   },
   "homepage": "https://github.com/icedcode24/book-search-engine24#readme"
-  
 }
